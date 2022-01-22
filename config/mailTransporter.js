@@ -5,8 +5,8 @@ const mailTransporter=nodemailer.createTransport(smtpTransport({
         service: 'gmail',
         host: 'smtp.gmail.com', 
         auth: {        
-            user: 'tipson664@gmail.com',        
-            pass: 'liwhxiuhvprsdyac'    
+            user: 'email@gmail.com',        
+            pass: 'your app password' //check how to setup gmail app password    
         }
 }));
 
